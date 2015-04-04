@@ -1,0 +1,28 @@
+*** COMO USAR O GIT ***
+
+
+//.. configurar git
+git config --global user.email "moinunes@gmail.com"
+git config --global user.name "moinunes"
+
+***************** comandos repositório local
+iniciar o controle de versionamento na pasta atual
+git init
+git status
+git add *.php
+git add *
+git commit -m "commit inicial"
+
+
+*****************  setar url ( setar o origim com o endereço do gitHub )
+git remote add origin https://github.com/moinunes/CakePhp.git
+
+
+***************** subir os arquivos para o gitHub
+git push -u origin master
+
+
+
+***************** site com repositórios privados
+-  Utilizando o site  bitbucket.org 
+
